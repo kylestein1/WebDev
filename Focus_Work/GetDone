@@ -1,0 +1,73 @@
+Stuff Needed
+
+* Functions 
+    Drop down with limit amount
+        make the limit a variable (say some variable m)
+            have a drop down showing 25, 50, 75, 100, 150, 200
+            depending on what the user chooses, it changes that value
+    Filter
+        Fix - Not working
+    Description for job
+        lets try to incorporate: location, type (part time, full time), category (make even smaller than the rest), AND COMPANY Description, + nav link to app site
+        Before each make the title bold (EX: Salary: $xxx     ->    salary would be bolded)
+
+* Appearence
+    make search/filter stuff fixed****************
+    Make job listing bigger, center and bold the title, make all other description smaller and grey
+
+* Styling
+    Header - NOT FIXED
+        Nav links with 2 company sites, + contact us (whats already on their site to fill space)
+        image
+    Description
+        add brief description w some pics about what this is all about (change up current)
+        along with a run down of the functionality
+    Filters
+        style up and position the Filters
+        re-lable some of the names to match big corps 
+    Search Bar
+        same line as filters (filters go on both sides of it)
+        get rid of or above
+    Content on bottom
+        contact us...
+
+
+
+
+
+
+Due Sunday 1/3 @ 3:00 EST:
+
+@Kyle
+    Finish all Styling + Appearence
+    Style job shit
+    add nav link to app site + all header + filter (all styling)
+    website content - content on bottom + site details + site instructions
+
+@Angie
+    Meet with TA   ->    Fix functionality  
+        Display limit drop down (Fix)
+        Filter (Not Working Anymore)
+        Job Decription (inside job content -> displaying bulk data rather than just the description)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If extra time *************
+
+- Functions
+    drop down menu for job type (part time, full time, remote...)
+
+
+
+

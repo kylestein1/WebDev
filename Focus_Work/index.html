@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Jobs</title>
+    <link rel="icon" href="logo.png" type="image">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div id="header" class="header">
+      <!-- ~~~~~~~~~~~~~~~~~~Style this~~~~~~~~~~~~~~~ -->
+    <!-- <h1 class="titl" id="fInFocus" style="border: black; border-width: thick;">F</h1> -->
+    <!-- <img class="mag"src="mag.png" alt="magnifine"> -->
+    <!-- <h1 class="titl" id="tit2">cus Work</h1> -->
+    <div id="imageHeader">
+    <img class="headerImage" id="headerImage" src="FocusWorkTitle.png" alt="FocusWork">
+  </div>
+  <div id="navLinks">
+    <nav style="color: white;" class="sataliteSites">
+        <a class="tA" style="padding-right: 3%;" href="https://www.focusfinance.org/">Focus Finance</a>
+        <a class="tA" style="padding-right: 3%;" href="https://www.focusconnect.org/">Focus Connect</a>
+        <a class="tA" style="padding-right: 3%;" href="https://www.focusfinance.org/contact">Contact Us</a>
+    </nav>
+    </div>
+    <div id="icons">
+    <a class="insta1" href="https://www.instagram.com/thefocusfinance/">
+        <img id="icon1" class="insta"src="insta.png" alt="gram">
+    </a>
+    <a class="lin1" href="https://www.linkedin.com/company/thefocusfinance/">
+        <img id="icon2" class="lin"src="linkedIn.png" alt="linkedIN">
+    </a>
+    <!-- <img src=...
+      organization's logo -->
+    </div>
+    </div>
+   
+  
+  <div class="heading">
+           <!-- ~~~~~~~~~~~~~~~~~~Style this and reword~~~~~~~~~~~~~~~ -->
+        <div class="picWrite">
+           <div class="detPic">
+                <!-- Empty div for the work for us today section -->
+           </div>
+           <div class="getHired">
+                Get Hired
+           </div>
+        </div>
+        <!-- <br> -->
+        <!-- <br> -->
+        
+        <h1 style="font-size: 350%;">Looking For a Job?</h1>
+        <h2 style="font-size: 250%;">
+          Find Your Next Job Today Here at Focus Work!
+        </h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="bigImage1">
+        <img class="hold"src="edits.jpg" id="bigImage" alt="piccc">
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="startToday" >
+            <h1 style="font-size: 350%;">Start Your Search Today</h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <!-- <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> -->
+      </div>
+        <div class= "container">
+          <div id="searchBar">
+            <form >
+              <input type="text" id="jobSearch" placeholder="Search by title or description...">
+
+              <button id="searchButton" onclick="searchJob()">Search</button>
+            </form>
+          </div>
+          <div class="dropDown" id="dropDown">
+            <!-- make these look nice -->
+            <!-- <label for="filter">Filter by Field</label> -->
+            <select name="filter" id="filter">
+            <optgroup id="filterMenu" label="Category">
+                    <!-- ~~~~~~~~~~~~~~~~~~match "category" to be same as linkedin~~~~~~~~~~~~~~~ -->
+              <option value="hr">Human Resources</option>
+              <option value="business">Business</option>
+              <option value="data">Data</option>
+              <option value="sales">Sales</option>
+              <option value="software-dev">Software Development</option>
+              <option value="writing">Writing</option>
+              <option value="product">Product</option>
+              <option value="design">Design</option>
+              <option value="marketing">Marketing</option>
+              <option value="finance-legal">Finance / Legal</option>
+              <option value="medical-health">Medical / Health</option>
+              <option value="all-others">All Others</option>
+            <!-- ~~~~~~~~~~~~~~~~~~more cat can be added~~~~~~~~~~~~~~~ -->
+            </optgroup>
+            </select>
+          
+            <!-- <br><br> -->
+            <select name="amountListed" id="amountListed">
+           <!-- <div id="numberFilter"> -->
+            <optgroup id="numberList" label="Quantity">
+              <!-- ~~~~~~~~~~~~~~~~~~match "category" to be same as linkedin~~~~~~~~~~~~~~~ -->
+              <option value=10>10</option>
+              <option value=25>25</option>
+              <option value=50>50</option>
+              <option value="75">75</option>
+              <option value="100">100</option>
+              <option value="150">150</option>
+              <option value="200">200</option>
+            </select>
+            <button  id="filterButton" onclick="filterJobs()">Apply</button>
+            <!-- <button  id="amount" onclick="jobAmount()">Show More</button> -->
+          </div>
+          <!-- <br> -->
+                  <!-- <div class="searchbar"> -->
+            
+          <!-- </div> -->
+          <!-- <span onclick="insertion()" class="search">+</span> -->
+      
+    </div>
+    <br><br>
+    <div class="content">
+        <ul id="jobList" style="color: black;">
+          <!-- <li >
+
+          </li> -->
+        </ul>
+    </div>
+    <div id= "bottomPart" class="leftO">
+        <ul class="bottom" id="aboutA">
+            <li style="font-size: 25px; font-weight: bold;">About Focus Work</li>
+            <li>
+                <a class="fin" href="https://www.focusconnect.org/">Our Mission</a>
+            </li>
+            <li>
+                <a class="fin" href="https://www.focusconnect.org/">Our Programs</a>
+            </li>
+            <li>
+                <a class="fin" href="https://www.focusfinance.org/internal-network">Members</a>
+            </li>
+            <li><a class="fin" href="https://www.focusconnect.org/">Focus Connect</li>
+        </ul>
+        <ul class="bottom" id="getHelp">
+          <!-- <li></li> -->
+            <li style="font-size: 20px; font-weight: bold;">Help</li>
+            <!-- <li>Help</li>
+            <li>FAQs</li> -->
+            <li><a class="fin" href="https://www.focusfinance.org/contact">Contact</a></li>
+            <li><a class="fin" href="https://www.focusfinance.org/research-disclaimer">Research Disclaimer</a></li>
+            <!-- <li>Product Recalls</li> -->
+            <!-- <li>Return Policy</li> -->
+        </ul>
+        <ul class="bottom" id="myDet">
+            <li style="font-size: 20px; font-weight: bold;">Our Network</li>
+            <li><a class="fin" href="https://www.focusfinance.org/who-we-are">About Us</a></li>
+            <li><a class="fin" href="https://www.focusfinance.org/team">Team</a></li>
+            <li><a class="fin" href="https://www.focusfinance.org/internal-network">Network</a></li>
+            <li><a class="fin" href="https://www.focusfinance.org/advisoryboard">Advisors</a></li>
+            <!-- <li>Real Estate Info</li> -->
+            <li><a class="fin" href="https://www.focusfinance.org/careers">Careers</a></li>
+            <!-- <li>ALDI International</li> -->
+        </ul>
+        <ul class="bottom" id="howFind">
+            <li style="font-size: 20px; font-weight: bold;">Find Us on the Web</li>
+            <li><a class="fin" href="https://www.cigna.com/"> Email Newsletters</a></li>
+            <li><a class="fin" href="https://www.linkedin.com/company/thefocusfinance"></a>linkedIn</li>
+            <li><a class="fin" href="https://www.instagram.com/thefocusfinance">Instagram</a></li>
+            <!-- <li>Pinterest</li> -->
+            <!-- <li>YouTube</li> -->
+        </ul>
+    </div>
+    <script src="jscript.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- Sources Used -->
+
+<!-- 
+    The Favicon and Image used in the title was from the https://www.focusconnect.org/
+        website, the company that I work for. 
+        This is the website that my partner and I based ours off of
+
+    The image (the one with "get hired") was 
+        retrieved from https://www.cleanpng.com/png-employment-job-fair-career-recruitment-1609173/preview.html
+
+    The final image we used was edited on photoshop. However, the cartoon was 
+        retrieved from https://novoresume.com/
+
+
+
+
+
+
+
+
+
+
+
+ --> 

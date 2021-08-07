@@ -1,0 +1,520 @@
+*{
+  box-sizing: border-box;
+}
+/* List stuff */
+
+#jobList {
+  margin: auto;
+  padding: 0;
+  overflow:scroll;
+  height: 600px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 4%; 
+}
+#jobList li {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 9px 12px 38px;
+  background: rgb(223, 223, 223);
+  height: fit-content;
+  font-size: 19px;
+  list-style: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+}
+#jobList li:nth-child(odd) {
+  background: #ffffff;
+}
+
+
+/* Close Buttons???? */
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 11px 15px 11px 15px;
+  z-index: 999;
+  color: red;
+  height: 45px;
+  width: 45px;
+}
+.close:hover {
+  background-color: #3f3f3f;
+  color: white;
+}
+
+/* Everything */
+
+body{
+    background-color: #093E8D;
+    /* background-color: #ffffff; */
+    padding: 0px 40px;
+}
+
+/* Header */
+
+.titl{
+    color: #093E8D;
+    border: black;
+    font-size: 45px;
+    font-family: serif;
+    padding-left: 8%;
+    z-index: 809;
+}
+
+.heading {
+  /* background-color: #3a57ff; */
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  /* margin-left: 10%; */
+  z-index: 809;
+}
+.heading:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header{
+    background-color: white;
+    border-radius: 5px;
+    width:100%;
+    /* margin-right: -3px; */
+    /* padding: 2px; */
+    color: navy;
+    height: 150px;
+    z-index: 800;
+  }
+  #fInFocus{
+      /* float: left; */
+      /* width: 100px; */
+      position: relative;
+      /* display: inline-block; */
+      /* padding-bottom: 1.025%; */
+      padding-top: 1.5%;
+      font-size: 45px;
+      z-index: 999;
+  }
+  .mag{
+      position: relative;
+    width:85px;
+    top: -80px;
+    margin-left: 7.8%;
+    display: inline-block;
+    z-index: 999;
+}
+  #tit2{
+      margin-top: -4.8%;
+      position: relative;
+      margin-left: 3.5%;
+      display: inline-block;
+      float: left;
+      font-size: 45px;
+      z-index: 999;
+  }
+.sataliteSites{
+    /* position: relative; */
+    font-size: 170%;
+    /* overflow: hidden; */
+  /* text-align: center; */
+  /* padding: .5% 0px 2% 0px; */
+  z-index: 999;
+  /* font-size: 17px; */
+  /* margin-top: -8.5%; */
+  /* margin-left: 10%; */
+}
+.tA{
+    /* padding-left: 80px; */
+    text-decoration: none;
+    color: #093E8D;
+    z-index: 999;
+}
+.tA:hover{
+    color: black;
+    font-weight: 900;
+    /* font-size: 135%; */
+    cursor: pointer;
+}
+.insta{
+    height: 20%;
+    width: auto;
+    /* position: relative; */
+}
+.insta1{
+    height: 20%;
+    width: auto;
+    /* position: relative; */
+  /* margin-left: 78%; */
+  /* padding: 0% .5% 0% 8%; */
+  /* top: -47.5%; */
+}
+.insta1:hover{
+    height: 33%;
+    cursor: pointer;
+    top: -50.5%;
+}
+.lin{
+    height: 20%;
+    width: auto;
+    /* position: relative; */
+    /* padding-left: 5px; */
+}
+.lin1{
+    height: 20%;
+    width: auto;
+    /* position: relative; */
+    /* margin-left: 86.5%; */
+  /* padding: 0% .5% 0% 2.5%; */
+  /* top: -71%; */
+}
+/* .lin:hover{
+    height: 23%;
+    cursor: pointer;
+    top: -2%;
+} */
+.lin1:hover{
+    height: 33%;
+    cursor: pointer;
+    top: -74%;
+}
+/* Info */
+.picWrite{
+  padding-top:100px;
+}
+.detPic{
+    
+    
+    width: auto;
+     background-image: url("hired.png");
+     /* width: max-content; */
+     box-sizing: border-box;
+     position: relative;
+     top:20px;
+     margin-top: 0%;
+     padding-top: 40%;
+     /* padding-bottom: 20%; */
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     background-attachment: fixed;
+     /* bottom: 100px; */
+     background-position: center 40%;
+     background-repeat: no-repeat;
+     z-index: -10;
+     background-position: bottom 40% center;
+}
+
+.getHired{
+    box-sizing: border-box;
+  font-weight: bold;
+  font-family: serif;
+  z-index: 15;
+  font-size: 120px;
+  position: relative;
+  top: 100%;
+  /* margin-right: 15%; */
+  bottom: 195px;
+  color: white; 
+  margin:auto;
+  -webkit-text-stroke-color: 2px black;
+}
+.hold{
+    border-radius: 10px;
+}
+
+/* Search Stuff */
+
+#jobSearch {
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  width: 35%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  margin-left: 8%;
+  font-family: serif;
+  color: black;
+  margin-right: 0;
+  background-color: white;
+  text-align-last:center;
+  /* display: inline-block; */
+}
+/* Whats This? */
+.search {
+  padding: 10px;
+  width: 10%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+  
+}
+.search:hover {
+  background-color: #bbb;
+}
+/* ^^^^^^^^^^ */
+ 
+#searchButton{
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+  font-family: serif;
+  font-size: 20px;
+  color: #093E8D;
+  background-color:rgb(255, 255, 255);
+
+  /* float: left; */
+  /* margin-left: .75%; */
+
+}
+#jobSearch:hover {
+    background-color: rgb(235, 235, 235);
+  }
+/* Filter */
+
+
+
+#filterButton{
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+  font-family: serif;
+  font-size: 20px;
+  color: #093E8D;
+  background-color:rgb(255, 255, 255);
+  /* margin-left: 85.5%; */
+  /* margin-top: -2.30%; */
+  float: left;
+  z-index: 999;
+}
+
+
+#filter{
+  border: black;
+  border-radius: 5px;
+  /* width: 25%; */
+  float: left;
+  height: 40px;
+  font-size: 16px;
+  /* margin-left: 55%; */
+  /* margin-top: -2.3%; */
+  font-family: serif;
+  color: black;
+  background-color: white;
+  text-align-last:center;
+  /* position: relative; */
+}
+
+#amountListed{
+   
+  /* justify-content: center;
+  text-align-last:center;
+   */
+  border: black;
+  border-radius: 5px;
+  float: left;
+  height: 40px;
+  font-size: 16px;
+  /* margin-left: 81%; */
+  /* margin-top: -2.3%; */
+  font-family: serif;
+  color: black;
+  background-color: white;
+  text-align-last:center;
+  /* position: relative; */
+}
+
+/* Content */
+h2{
+  margin:0;
+}
+#h22{
+  margin-bottom: 20px;
+}
+h3{
+  margin:8px;
+}
+
+.leftO{
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+  .leftO ul{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    box-sizing: border-box;
+    margin-left:4%;
+    margin-top: 8%;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .leftO li:first-child{
+    /* color: rgb(255, 255, 255); */
+    text-decoration: underline;
+  }
+  .leftO li{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .fin{
+    text-decoration: none;
+    color: #ffffff;  
+  }
+  .fin:hover{
+    text-decoration: underline;
+    cursor: text;
+    color: #a1a1a1;  
+  }
+  /* @media screen and (max-width: 1200px) {
+    html{
+      width: fit-content;
+      height: fit-content; 
+    }
+  } */
+
+  #bigImage{
+    width: 100%;
+    height: 80%;
+    box-shadow: 5px -1px 5px darkgrey;
+    box-shadow: -10px 10px 5px #092f69;
+  }
+  #bigImage1{
+    width:100%;
+    height:40%;
+  }
+
+  .container{
+    width:100%; 
+    margin-bottom: 2%;
+    /* margin:auto; */
+  }
+
+ #numberFilter{
+    width: 25%;
+    float: left;
+    margin:auto;
+    margin-left: 5%;
+  }
+  
+  #searchBar{
+    margin-left: 8%;
+    width: 52%;
+    float:left
+  }
+
+  #jobSearch{
+    /* margin-right: 3%; */
+    width: 72%;
+  }
+
+  #searchButton{
+    margin-left: 4%;
+  }
+
+  #dropDown{
+    width: 32%;
+    float:left;
+    margin-right:5%
+  }
+  #amountListed{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #header{
+    width:100%;
+    float:left;
+    z-index:1000;
+    position:absolute;
+  }
+
+  #imageHeader{
+    width: 25%;
+    float:left;
+    padding-top:60px;
+    padding-left: 20px;
+  }
+  #headerImage{
+    height: 50%;
+    width: 90%;
+  }
+  #navLinks{
+    width:50%;
+    float:left;
+    padding-top:60px;
+    margin-left: 40px;
+    padding-left: 40px;
+    justify-content: space-evenly;
+
+  }
+/* #navLinks a{
+  padding-right: 10px;
+} */
+  #icons{
+    width:15%;
+    float:left;
+    padding-left: 20px;
+  }
+
+  #icon1, #icon2{
+    height: 15%;
+    width:15%;
+    padding-top: 60px;
+    
+  }
+  #icon1{
+    margin-right: 20px;
+    margin-left: 10px;
+    
+  }
+
+/* .left0{
+  background-color:lightgrey;
+  position:absolute;
+  z-index: 900;
+} */
+
+#bottomPart{
+  line-height: 30px;
+}
+
+#amountListed{
+  margin-bottom: 10px;
+}
+
+#jobSearch{
+  margin-bottom:10px;
+}
+
+#searchButton, #filter{
+  margin-bottom: 10px;
+}
+
+/* .bottom{
+  background-color: grey;
+  height: 100%;
+  width: 25%;
+}
+
+#getHelp{
+  height: 30%;
+} */
+
+#bottomPart{
+  border-top: 5px grey;
+}
